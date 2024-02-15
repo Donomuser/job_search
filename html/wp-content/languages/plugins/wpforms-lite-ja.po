@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-28 12:17:13+0000\n"
+"PO-Revision-Date: 2024-02-13 12:41:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,454 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release)\n"
+
+#. translators: %1$s - addon download URL, %2$s - link to manual installation
+#. guide, %3$s - link to contact support.
+#: includes/admin/admin.php:190 includes/admin/ajax-actions.php:698
+msgid "Could not install the addon. Please <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">download it from wpforms.com</a> and <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">install it manually</a>, or <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">contact support</a> for assistance."
+msgstr "アドオンをインストールできませんでした。 <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">wpforms.com</a> からアドオンをダウンロードし、 <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">手動でインストールしてください</a>、または支援が必要な場合は、<a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">サポート</a>までお問い合わせください。"
+
+#: includes/admin/admin.php:210
+msgid "Change columns to display"
+msgstr "表示する列を変更する"
+
+#: includes/admin/admin.php:211
+msgid "Sorry, there are no form fields that match your criteria."
+msgstr "ご指定の条件に一致するフォームフィールドがありません。"
+
+#: includes/admin/admin.php:212
+msgid "Sorry, there is no entry meta that match your criteria."
+msgstr "ご指定の条件に一致するエントリーメタ情報はありません。"
+
+#: includes/admin/admin.php:213
+msgid "Are you sure you want to delete this entry? This will also remove all associated files, notes, and logs."
+msgstr "本当にこのエントリーを削除してもよいですか ? これにより、関連するファイル、メモ、ログ記録もすべて削除されます。"
+
+#: includes/admin/admin.php:214
+msgid "Are you sure you want to delete ALL entries? This will also remove all associated files, notes, and logs."
+msgstr "本当にすべてのエントリーを削除してもよいですか ? これにより、関連するファイル、メモ、ログ記録もすべて削除されます。"
+
+#. translators: %s - entry count.
+#: includes/admin/admin.php:216
+msgid "Are you sure you want to delete %s entries? This will also remove all associated files, notes, and logs."
+msgstr "本当に%s個のエントリーを削除してもよいですか ? これにより、関連するファイル、メモ、ログ記録もすべて削除されます。"
+
+#: includes/admin/admin.php:219
+msgid "Are you sure you want to trash this entry? This will also remove all associated files, notes, and logs."
+msgstr "本当にこのエントリーをゴミ箱に移動してもよいですか ? これにより、関連するファイル、メモ、ログ記録もすべて削除されます。"
+
+#: includes/admin/admin.php:220
+msgid "Are you sure you want to trash ALL entries? This will also remove all associated files, notes, and logs."
+msgstr "本当にすべてのエントリーをゴミ箱に移動してもよいですか ? これにより、関連するファイル、メモ、ログ記録もすべて削除されます。"
+
+#. translators: %s - entry count.
+#: includes/admin/admin.php:222
+msgid "Are you sure you want to trash %s entries? This will also remove all associated files, notes, and logs."
+msgstr "本当に%s個のエントリーをゴミ箱に移動してもよいですか ? これにより、関連するファイル、メモ、ログ記録もすべて削除されます。"
+
+#: includes/admin/admin.php:256
+msgid "Unknown error."
+msgstr "不明なエラー。"
+
+#: includes/admin/admin.php:290 includes/admin/builder/class-builder.php:683
+msgid "You tried uploading a file type that is not allowed. Please try again."
+msgstr "許可されていないファイルタイプをアップロードしようとしました。もう一度お試しください。"
+
+#: includes/admin/builder/class-builder.php:698
+msgid "Couldn't load the Setup panel."
+msgstr "セットアップパネルを読み込むことができませんでした。"
+
+#: includes/admin/class-settings.php:536
+msgid "Payment Required"
+msgstr "支払いが必要です。"
+
+#: includes/admin/class-settings.php:542
+msgid "Credit Card"
+msgstr "クレジットカード"
+
+#. translators: %s - total amount of choices.
+#: includes/fields/class-base.php:2518
+msgid "Showing the first %1$s choices.<br> All %2$s choices will be displayed when viewing the form."
+msgstr "最初の%1$s個の選択肢を表示しています。<br>フォームを表示すると、%2$s個すべての選択肢が表示されます。"
+
+#: includes/functions/education.php:43
+msgid "Plugin installation is disabled for this site."
+msgstr "このサイトではプラグインのインストールが無効化されています。"
+
+#. translators: %s - addon title.
+#: lite/templates/admin/addons.php:53
+msgid "%s logo"
+msgstr "%s ロゴ"
+
+#: lite/templates/admin/addons.php:94
+msgid "Sorry, we didn't find any addons that match your criteria."
+msgstr "ご指定の条件に一致するアドオンは見つかりませんでした。"
+
+#: lite/templates/education/admin/lite-connect/dashboard-widget-before.php:26
+msgid "Restore Entries"
+msgstr "エントリーを復元"
+
+#: src/Admin/Builder/Ajax/PanelLoader.php:79
+msgid "Invalid panel."
+msgstr "パネルが無効です。"
+
+#: src/Admin/Builder/Templates.php:182
+msgid "Install and activate"
+msgstr "インストールして有効化"
+
+#. translators: %1$s - CAPTCHA settings page URL, %2$s - WPForms.com doc URL.
+#: src/Admin/Education/Builder/Captcha.php:164
+msgid "Please complete the setup in your <a href=\"%1$s\" target=\"_blank\">WPForms Settings</a>, and check out <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">our guide</a> to learn about available CAPTCHA solutions."
+msgstr "<a href=\"%1$s\" target=\"_blank\">WPForms 設定</a>でセットアップを完了してください。ご利用可能な CAPTCHA ソリューションについては<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">当社のガイド</a>をご覧ください。"
+
+#: src/Admin/Forms/Ajax/Columns.php:73
+msgid "Cannot save columns order."
+msgstr "カラムの順番を保存できません。"
+
+#: src/Admin/Forms/Page.php:360
+msgid "Columns"
+msgstr "列"
+
+#: src/Admin/Forms/Table/Facades/Columns.php:63
+msgid "ID"
+msgstr "ID"
+
+#: src/Admin/Settings/Email.php:122
+msgid "This color combination may be hard to read. Try increasing the contrast between the body and text colors."
+msgstr "この色の組み合わせでは読みにくいかもしれません。背景の色とテキストの色のコントラストを上げてみてください。"
+
+#: src/Admin/Settings/Email.php:224
+msgid "Appearance"
+msgstr "外観"
+
+#: src/Admin/Settings/Email.php:225
+msgid "Modern email clients support viewing emails in light and dark modes. You can upload a header image and customize the style for each appearance mode independently to ensure an optimal reading experience."
+msgstr "最近のメールクライアントは、ライトモードとダークモードでのメール表示に対応しています。ヘッダー画像をアップロードし、外観モードごとに個別にスタイルをカスタマイズすることで、メールを読みやすくすることができます。"
+
+#: src/Admin/Settings/Email.php:449
+msgid "Upload or choose a logo to be displayed at the top of email notifications. Light mode image will be used if not set."
+msgstr "メール通知の上部に表示するロゴをアップロードまたは選択します。設定されていない場合は、ライトモードの画像が使用されます。"
+
+#. translators: %1$s - Email template preview URL.
+#: src/Admin/Settings/Email.php:567
+msgid "<a href=\"%1$s\" class=\"wpforms-btn-preview\" target=\"_blank\" rel=\"noopener\">Preview Email Template</a>"
+msgstr "<a href=\"%1$s\" class=\"wpforms-btn-preview\" target=\"_blank\" rel=\"noopener\">メールテンプレートをプレビュー</a>"
+
+#: src/Admin/Tools/Views/Import.php:347
+msgid "The unfiltered HTML permissions are required to import form."
+msgstr "フォームをインポートするには、フィルタリングされていない HTML の権限が必要です。"
+
+#: src/Admin/Tools/Views/Import.php:357
+msgid "There was an error saving your form. Please check your file and try again."
+msgstr "フォームの保存中にエラーが発生しました。ファイルを確認してもう一度お試しください。"
+
+#: src/Forms/Fields/PaymentSingle/Field.php:332
+msgid "Enter the minimum price of the item, without a currency symbol."
+msgstr "通貨記号なしで項目の最低価格を入力してください。"
+
+#. translators: %1$s - the default minimum price.
+#: src/Forms/Fields/PaymentSingle/Field.php:362
+msgid "Requiring a minimum price of at least %1$s helps protect you against card testing by fraudsters."
+msgstr "%1$s以上の最低価格の入力を求めることで、不正使用者によるカードテストの防止に役立ちます。"
+
+#: src/Forms/Fields/PaymentSingle/Field.php:373
+msgid "Security Recommendation"
+msgstr "セキュリティの推奨事項"
+
+#. translators: %1$s - Item Price value.
+#: src/Forms/Fields/PaymentSingle/Field.php:410
+msgid "Price: <span class=\"price\">%1$s</span>"
+msgstr "価格: <span class=\"price\">%1$s</span>"
+
+#. translators: %1$s - Minimum Price value.
+#: src/Forms/Fields/PaymentSingle/Field.php:442
+msgid "Minimum Price: <span class=\"min-price\">%1$s</span>"
+msgstr "最低価格: <span class=\"min-price\">%1$s</span>"
+
+#: src/Forms/Fields/PaymentSingle/Field.php:584
+msgid "Amount can't be less than the required minimum."
+msgstr "金額は必要最低額を下回ることはできません。"
+
+#. translators: %1$s - Minimum Price value.
+#: src/Forms/Fields/PaymentSingle/Field.php:636
+msgid "Minimum Price: %1$s"
+msgstr "最低価格: %1$s"
+
+#: src/Integrations/Divi/Divi.php:235
+msgid "comprehensive guide"
+msgstr "総合ガイドをご覧ください"
+
+#: src/Integrations/Divi/Divi.php:236
+msgid "Need some help? Check out our"
+msgstr "サポートが必要な場合は、"
+
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:520
+msgid "--- Select Name ---"
+msgstr "--- 名前を選択 ---"
+
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:521
+msgid "Select the field that contains the customer's name. This is optional but recommended."
+msgstr "顧客の名前を含むフィールドを選択してください。この選択は任意ですが、選択することをお勧めします。"
+
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:534
+msgid "Customer Name"
+msgstr "顧客の氏名"
+
+#. translators: %1$s - Stripe.com URL for domains registration documentation.
+#: src/Integrations/Stripe/DomainHealthCheck.php:140
+msgid "Heads up! It looks like there's a problem with your domain verification, and Stripe Apple Pay may stop working. If this notice does not disappear in a day, <a href=\"%1$s\" rel=\"nofollow noopener\" target=\"_blank\">please register it manually.</a>"
+msgstr "ご注意ください ! ドメイン認証に問題があるようなので、Stripe Apple Pay のご利用が停止される可能性があります。この通知が1日経っても消えない場合は、 <a href=\"%1$s\" rel=\"nofollow noopener\" target=\"_blank\">手動でドメインを登録してください。</a>"
+
+#: src/Lite/Admin/Pages/Addons.php:91
+msgid "Upgrade to Unlock WPForms Addons"
+msgstr "アップグレードして WPForms のアドオンを利用する"
+
+#: src/Lite/Admin/Pages/Addons.php:92
+msgid "Access powerful marketing and payment integrations, advanced form fields, and more when you purchase our Plus, Pro, or Elite plans."
+msgstr "Plus、Pro、Elite のプランをご購入いただくと、強力なマーケティングや支払い機能との連携、高度なフォームフィールドなどをご利用いただけます。"
+
+#: src/Lite/Admin/Settings/Access.php:165
+msgid "Access controls allows you to manage and customize access to WPForms functionality. You can easily grant or restrict access using the simple built-in controls, or use our official integrations with Members and User Role Editor plugins."
+msgstr "アクセスコントロールでは、WPForms の機能へのアクセスを管理し、カスタマイズすることができます。シンプルなビルトインコントロールを使用して簡単にアクセスを許可または制限したり、Members や User Role Editor のプラグインとの公式連携を使用したりすることができます。"
+
+#: src/Logger/Log.php:108
+msgid "Translation"
+msgstr "翻訳"
+
+#: templates/builder/context-menu.php:55
+msgid "Mark as Optional"
+msgstr "オプションとしてマーク"
+
+#: templates/builder/context-menu.php:56
+msgid "Mark as Required"
+msgstr "必須としてマーク"
+
+#: templates/builder/context-menu.php:65
+msgid "Show Label"
+msgstr "ラベルを表示"
+
+#: templates/builder/context-menu.php:120
+msgid "Edit Smart Logic"
+msgstr "スマートロジックを編集"
+
+#. translators: %1$s - WPForms.com doc page URL; %2$s - button text.
+#: includes/admin/class-settings.php:114
+msgid "It looks like you've downgraded to an older version of WPForms. We recommend always using the latest version as some features may not function as expected in older versions. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">%2$s</a>"
+msgstr "WPForms が古いバージョンにダウングレードされたようです。古いバージョンでは一部の機能が予期したように動作しない場合があるため、常に最新バージョンを使用することをお勧めします。 <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">%2$s</a>"
+
+#: includes/admin/class-settings.php:492
+#: src/Forms/Fields/PaymentSingle/Field.php:340
+msgid "Minimum Price"
+msgstr "最低価格"
+
+#: includes/admin/class-settings.php:494 src/Frontend/Frontend.php:1799
+msgid "Amount entered is less than the required minimum."
+msgstr "入力された金額は必要最低額に届いていません。"
+
+#: includes/admin/class-about.php:561 lite/wpforms-lite.php:634
+msgid "Create powerful custom calculation forms"
+msgstr "強力なカスタム計算フォームを作成する"
+
+#: includes/admin/class-about.php:565 lite/wpforms-lite.php:635
+msgid "Make surveys and generate reports"
+msgstr "アンケートを実施してレポートを作成する"
+
+#: includes/admin/class-about.php:585 lite/wpforms-lite.php:641
+msgid "Take payments with Stripe, PayPal, Square, & Authorize.Net"
+msgstr "Stripe、PayPal、Square、Authorize.Net で支払いを受け取る"
+
+#: includes/admin/class-about.php:589 lite/wpforms-lite.php:642
+msgid "Export entries to Google Sheets, Excel, and CSV"
+msgstr "Google Sheets、Excel、CSV にエクスポートする"
+
+#: includes/admin/settings-api.php:394
+#: templates/builder/notifications/email-template-modal.php:31
+msgid "Email Templates"
+msgstr "メールのテンプレート"
+
+#: includes/admin/settings-api.php:423
+#: templates/builder/notifications/email-template-modal.php:40
+msgid "Choose"
+msgstr "選択"
+
+#: src/Admin/Builder/Notifications/Advanced/EmailTemplate.php:109
+msgid "Email Template"
+msgstr "メールテンプレート"
+
+#: src/Admin/Builder/Notifications/Advanced/EmailTemplate.php:119
+msgid "Override the default email template for this specific notification."
+msgstr "この特定の通知のデフォルトのメールテンプレートを上書きします。"
+
+#: src/Admin/Builder/Notifications/Advanced/EmailTemplate.php:172
+msgid "Default Template"
+msgstr "デフォルトのテンプレート"
+
+#: src/Admin/Education/Core.php:161
+msgid "are a PRO Feature"
+msgstr "は、PRO バージョンの機能です"
+
+#: src/Admin/Education/Core.php:180
+msgid "are an Elite Feature"
+msgstr "は、Elite バージョンの機能です"
+
+#. translators: %1$s - WPForms.com Email settings legacy template documentation
+#. URL.
+#: src/Admin/Settings/Email.php:304
+msgid "Some style settings are not available when using the Legacy template. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More</a>"
+msgstr "レガシーテンプレートを使用すると、一部のスタイル設定は使用できません。 <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">さらに詳しく</a>"
+
+#: src/Admin/Settings/Email.php:384 src/Admin/Settings/Email.php:388
+msgid "Typography"
+msgstr "タイポグラフィ"
+
+#: src/Admin/Settings/Email.php:385
+msgid "Choose the style that’s applied to all text in email notifications."
+msgstr "メール通知のすべてのテキストに適用されるスタイルを選択します。"
+
+#: src/Admin/Settings/Email.php:394
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+#: src/Admin/Settings/Email.php:395
+msgid "Serif"
+msgstr "Serif"
+
+#: src/Admin/Settings/Email.php:521
+msgid "Body"
+msgstr "本文"
+
+#: src/Admin/Settings/Email.php:523
+msgid "Links"
+msgstr "リンク"
+
+#: src/Admin/Tools/Views/CodeSnippets.php:113
+#: templates/integrations/wpcode/code-snippets.php:53
+msgid "Code Snippets"
+msgstr "コードスニペット"
+
+#: src/Emails/Helpers.php:34
+msgid "Legacy"
+msgstr "レガシー"
+
+#. translators: %1$d - field ID.
+#: src/Emails/Notifications.php:772
+msgid "Field ID #%1$d"
+msgstr "フィールド ID #%1$d"
+
+#: src/Emails/Notifications.php:898
+msgid "Compact"
+msgstr "コンパクト"
+
+#: src/Emails/Notifications.php:908
+msgid "Elegant"
+msgstr "エレガント"
+
+#: src/Emails/Notifications.php:913
+msgid "Tech"
+msgstr "テック"
+
+#. translators: %1$s - time when Lite Connect was enabled.
+#: src/Lite/Admin/Education/Admin/DidYouKnow.php:173
+msgid "since %1$s"
+msgstr "%1$s以降"
+
+#. translators: %1$s - Opening anchor tag, %2$s - Closing anchor tag.
+#: templates/builder/notifications/email-template-link.php:20
+msgid "Select a template to use for this notification or %1$sview templates%2$s."
+msgstr "この通知に使用するテンプレートを選択するか、%1$sテンプレートを表示%2$sします。"
+
+#: templates/builder/notifications/email-template-modal.php:21
+msgid "Choose a Template"
+msgstr "テンプレートを選択"
+
+#: templates/builder/notifications/email-template-modal.php:24
+msgid "Browse through our collection of email notification templates."
+msgstr "メール通知テンプレートのコレクションをご覧ください。"
+
+#. translators: %1$s - site URL; %2$s - site title.
+#: templates/emails/classic-footer.php:26
+#: templates/emails/compact-footer.php:26
+msgid "Sent from <a href=\"%1$s\">%2$s</a>"
+msgstr "<a href=\"%1$s\">%2$s</a>から送信"
+
+#: templates/integrations/wpcode/code-snippets.php:20
+msgid "Please Install WPCode to Use the WPForms Snippet Library"
+msgstr "WPForms スニペットライブラリを使用するには WPCode をインストールしてください"
+
+#: templates/integrations/wpcode/code-snippets.php:21
+msgid "Install + Activate WPCode"
+msgstr "WPCode のインストールと有効化"
+
+#: templates/integrations/wpcode/code-snippets.php:24
+msgid "Please Update WPCode to Use the WPForms Snippet Library"
+msgstr "WPForms スニペットライブラリを使用するには WPCode を更新してください"
+
+#: templates/integrations/wpcode/code-snippets.php:25
+msgid "Update + Activate WPCode"
+msgstr "WPCode の更新と有効化"
+
+#: templates/integrations/wpcode/code-snippets.php:29
+msgid "Please Activate WPCode to Use the WPForms Snippet Library"
+msgstr "WPForms スニペットライブラリを使用するには WPCode を有効化してください"
+
+#: templates/integrations/wpcode/code-snippets.php:30
+msgid "Activate WPCode"
+msgstr "WPCode を有効化"
+
+#: templates/integrations/wpcode/code-snippets.php:39
+msgid "Using WPCode, you can install WPForms code snippets with 1 click right from this page or the WPCode Library in the WordPress admin."
+msgstr "WPCode を使用すると、WPForms コードスニペットを、このページまたは WordPress 管理画面の WPCode ライブラリからワンクリックですぐにインストールできます。"
+
+#: templates/integrations/wpcode/code-snippets.php:45
+msgid "Learn more about WPCode"
+msgstr "WPCode についてさらに詳しく"
+
+#. translators: %s - WPCode library website URL.
+#: templates/integrations/wpcode/code-snippets.php:58
+msgid "Using WPCode, you can install WPForms code snippets with 1 click directly from this page or the <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">WPCode library</a>."
+msgstr "WPCode を使用すると、このページまたは <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">WPCode ライブラリ</a>からワンクリックで WPForms コードスニペットを直接インストールできます。"
+
+#: templates/integrations/wpcode/code-snippets.php:75
+msgid "Search Snippets"
+msgstr "スニペットを検索"
+
+#: templates/integrations/wpcode/code-snippets.php:84
+msgid "Edit Snippet"
+msgstr "スニペットを編集"
+
+#: templates/integrations/wpcode/code-snippets.php:84
+msgid "Install Snippet"
+msgstr "スニペットをインストール"
+
+#: templates/integrations/wpcode/code-snippets.php:87
+msgid "Installed"
+msgstr "インストール済み"
+
+#: templates/integrations/wpcode/code-snippets.php:104
+msgid "Sorry, we didn't find any snippets that match your criteria."
+msgstr "ご指定の条件に一致するスニペットは見つかりませんでした。"
+
+#. translators: %1$s - link to the WPForms.com doc article.
+#: src/Admin/Education/Builder/Calculations.php:92
+msgid "Easily perform calculations based on user input. Head over to the <a href=\"#advanced-tab\">Advanced Tab</a> to get started or read <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">our documentation</a> to learn more."
+msgstr "ユーザーの入力値に基づいて簡単に計算を実行できます。 <a href=\"#advanced-tab\">「高度な設定」タブ</a>で始めるか、 <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">ドキュメンテーション</a>をお読みください。"
+
+#: src/Admin/Education/Builder/Calculations.php:113
+msgid "New feature"
+msgstr "新機能"
+
+#: src/Admin/Education/Builder/Calculations.php:114
+msgid "Calculations Are Here!"
+msgstr "計算はこちらから !"
+
+#: src/Admin/Education/Builder/Calculations.php:203
+msgid "Calculations"
+msgstr "計算"
+
+#: src/Admin/Education/Builder/Calculations.php:229
+#: src/Admin/Education/Builder/Calculations.php:240
+msgid "Enable Calculation"
+msgstr "計算を有効化"
 
 #. translators: %s - WPForms.com URL for Stripe webhooks documentation.
 #: src/Integrations/Stripe/WebhooksHealthCheck.php:227
@@ -32,6 +480,12 @@ msgstr "サブスクリプション更新の履歴表"
 #: templates/admin/payments/single/payment-history.php:42
 msgid "Payment ID"
 msgstr "支払い ID"
+
+#. translators: %1$d - number of minutes, %2$s - singular or plural form of
+#. 'minute'.
+#: templates/admin/challenge/embed.php:99
+msgid "We're sorry that it took longer than %1$d %2$s to publish your form. Our goal is to create the most beginner-friendly WordPress form plugin.<br>How can we help you to be successful? Please send us your feedback. Our support team is standing by to help."
+msgstr "フォームの公開に%1$d %2$s 以上かかってしまい申し訳ありません。私たちの目標は、初心者にとって最も使いやすい WordPress フォームプラグインを作成することです。<br>お客様を成功に導くために私たちに何かできることがあれば、フィードバックをお寄せください。サポートチームがいつでもお手伝いいたします。"
 
 #. translators: %s - WPForms.com form styling setting URL.
 #: includes/admin/class-settings.php:380
@@ -468,6 +922,11 @@ msgstr "Stripe PHP リスナー方式ハンドラーへのリクエストのよ�
 #: src/Integrations/Stripe/Process.php:725
 msgid "Stripe Subscription payment stopped validation error."
 msgstr "Stripe サブスクリプションの支払いが検証エラーで停止されました。"
+
+#. translators: %1$s - WPForms.com Email settings documentation URL.
+#: src/Admin/Settings/Email.php:253
+msgid "Send emails asynchronously, which can make processing faster but may delay email delivery by a minute or two. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wpforms-learn-more\">Learn More</a>"
+msgstr "非同期でメールを送信することで処理を高速化できますが、メールの配信が1～2分遅れる可能性があります。 <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wpforms-learn-more\">さらに詳しく</a>"
 
 #: includes/admin/admin.php:209
 msgid "Close and Refresh"
@@ -1782,6 +2241,11 @@ msgstr "Stripe がライブ取引を処理しないようにします。詳し�
 msgid "Found <strong>%d payment</strong>"
 msgid_plural "Found <strong>%d payments</strong>"
 msgstr[0] "<strong>%d件の支払い</strong>が見つかりました:"
+
+#. translators: %s - general admin settings page URL.
+#: src/Integrations/Stripe/Admin/Notices.php:91
+msgid "<strong>Pay-as-you-go Pricing</strong><br> 3%% fee per-transaction + Stripe fees. <a href=\"%s\">Renew your license</a> to remove additional fees and unlock powerful features."
+msgstr "<strong>従量課金制の料金</strong><br>取引ごとに3%% の手数料 + Stripe の手数料。<a href=\"%s\">ライセンスを更新</a>すると、追加の手数料は無料になり、強力な機能をご利用いただけます。"
 
 #: src/Integrations/SMTP/Notifications.php:66
 msgid "Please enter a valid email address. Your notifications won't be sent if the field is not filled in correctly."
@@ -3418,6 +3882,18 @@ msgstr "WordPress 用の #1 Stripe 支払いプラグインです。ショッピ
 msgid "%s customizable form templates"
 msgstr "%s個のカスタマイズ可能なフォームテンプレート"
 
+#: includes/admin/class-about.php:557 lite/wpforms-lite.php:633
+msgid "Unlock all fields & features, including smart conditional logic"
+msgstr "スマートな条件付きロジックなど、すべてのフィールドと機能を利用する"
+
+#: includes/admin/class-about.php:577 lite/wpforms-lite.php:639
+msgid "6000+ integrations with marketing and payment services"
+msgstr "6000以上のマーケティングおよび支払いのサービスとの連携"
+
+#: includes/admin/class-about.php:581 lite/wpforms-lite.php:640
+msgid "Let users save & resume submissions to prevent abandonment"
+msgstr "フォーム放棄を防ぐため、ユーザーによる送信の保存と再開を可能にする"
+
 #: includes/admin/builder/class-builder.php:601
 msgid "This field cannot be duplicated."
 msgstr "このフィールドは複製できません。"
@@ -3511,6 +3987,10 @@ msgstr "WordPress のメール配信性を向上します。"
 #: src/Logger/Log.php:106
 msgid "Security"
 msgstr "セキュリティ対策"
+
+#: src/Admin/Pages/SMTP.php:245
+msgid "Free mailers: SendLayer, SMTP.com, Brevo, Google Workspace / Gmail, Mailgun, Postmark, SendGrid."
+msgstr "無料のメーラー: SendLayer、SMTP.com、Brevo、Google Workspace / Gmail、Mailgun、Postmark、SendGrid。"
 
 #: src/Integrations/UncannyAutomator/UncannyAutomator.php:168
 msgid "Build powerful automations that control what happens on form submission. Connect your forms to Google Sheets, Zoom, social media, membership plugins, elearning platforms, and more with Uncanny Automator."
@@ -4241,6 +4721,15 @@ msgstr "単語数制限"
 msgid "Enable hCaptcha"
 msgstr "hCaptcha を有効化"
 
+#: includes/admin/class-about.php:1485
+msgid "Calculations, Form Abandonment, Conversational Forms, Lead Forms, Frontend Post Submission, User Registration, Geolocation, Google Sheets, Coupons, and more (30 total)"
+msgstr "計算、フォーム放棄、会話形式、リードフォーム、フロントエンド投稿送信、ユーザー登録、位置情報、Google Sheets、クーポンなど (合計30)"
+
+#: includes/admin/class-about.php:1492 includes/admin/class-about.php:1499
+#: includes/admin/class-about.php:1506
+msgid "Calculations, Form Abandonment, Conversational Forms, Lead Forms, Frontend Post Submission, User Registration, Geolocation, Webhooks, Google Sheets, Coupons, and more (30+ total)"
+msgstr "計算、フォーム放棄、会話形式、リードフォーム、フロントエンド投稿送信、ユーザー登録、位置情報、Webhook、Google Sheets、クーポンなど (合計30以上)"
+
 #: includes/admin/admin.php:250
 msgid "Could not disconnect this account."
 msgstr "このアカウントを切断できませんでした。"
@@ -4713,6 +5202,12 @@ msgstr "次へ"
 msgid "Would you like to embed your form in an existing page, or create a new one?"
 msgstr "フォームを既存のページに埋め込みますか、それとも新しいページを作成しますか？"
 
+#. translators: %s - link to the WPForms documentation page.
+#: templates/admin/challenge/embed.php:25
+#: templates/admin/form-embed-wizard/tooltip.php:22
+msgid "Click the plus button, search for WPForms, click the block to<br>embed it. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More</a>"
+msgstr "プラスボタンをクリックして WPForms を検索し、ブロックをクリックして<br>埋め込みます。 <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">さらに詳しく</a>"
+
 #: src/Admin/Education/Fields.php:217
 msgid "Authorize.Net"
 msgstr "Authorize.Net"
@@ -4823,6 +5318,11 @@ msgstr "追加のマーケティング統合"
 #: src/Admin/Education/Core.php:183
 msgid "We're sorry, the %s is not available on your plan. Please upgrade to the Elite plan to unlock all these awesome features."
 msgstr "申し訳ございません。%s はこのプランでは使用できません。すべての素晴らしい機能を使用できるように、Elite プランにアップグレードしてください。"
+
+#: includes/admin/class-about.php:1317 includes/admin/class-about.php:1331
+#: includes/admin/class-about.php:1345
+msgid "ActiveCampaign, Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, Salesforce, Brevo, HubSpot, Drip, MailerLite, and ConvertKit"
+msgstr "ActiveCampaign、Constant Contact、Mailchimp、AWeber、GetResponse、Campaign Monitor、Salesforce、Brevo、HubSpot、Drip、MailerLite、および ConvertKit"
 
 #: src/Admin/AdminBarMenu.php:361 src/Forms/Preview.php:171
 #: src/Integrations/Gutenberg/FormSelector.php:381
@@ -9287,6 +9787,23 @@ msgstr "エントリー ID"
 msgid "User Email"
 msgstr "ユーザーメール"
 
+#: includes/admin/class-about.php:1296 includes/admin/class-about.php:1303
+msgid "Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, Brevo, Drip, MailerLite, and ConvertKit"
+msgstr "Constant Contact、Mailchimp、AWeber、GetResponse、Campaign Monitor、Brevo、Drip、MailerLite、および ConvertKit"
+
+#: includes/admin/class-about.php:1306 includes/admin/class-about.php:1320
+#: includes/admin/class-about.php:1334 includes/admin/class-about.php:1348
+msgid "<strong>Bonus:</strong> 6000+ integrations with Zapier."
+msgstr "<strong>ボーナス:</strong> Zapier を使用した 6000 以上の連携。"
+
+#: src/Admin/Settings/Email.php:605
+msgid "Customize the background color of the email template."
+msgstr "メールテンプレートの背景色をカスタマイズします。"
+
+#: src/Emails/Notifications.php:918
+msgid "Plain Text"
+msgstr "プレーンテキスト"
+
 #. translators: %s - form name.
 #: includes/class-form.php:536 lite/wpforms-lite.php:220
 #: src/Admin/Tools/Importers/ContactForm7.php:133
@@ -10506,3 +11023,10 @@ msgstr "カスタムフィールド (またはプロパティ) をフォーム�
 #: src/Providers/Provider/Settings/FormBuilder.php:305
 msgid "Something went wrong while performing an AJAX request."
 msgstr "AJAX リクエストを実行中に問題が発生しました。"
+
+#. translators: %1$s - Connection date.
+#: includes/providers/class-base.php:1271
+#: includes/providers/class-base.php:1351
+#: src/Providers/Provider/Settings/PageIntegrations.php:173
+msgid "Connected on: %1$s"
+msgstr "接続日: %1$s"
