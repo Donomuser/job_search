@@ -3,7 +3,7 @@ version: '3.8'
 services:
   php:
      build: ./php
-     image: php74cd
+     image: php82
      volumes:
        - ./html:/var/www/html
      depends_on:
@@ -25,3 +25,6 @@ services:
       - job_search_data:/var/lib/mysql
 volumes:
   job_search_data:
+
+
+#wp_pass:L5B$lHTfAtH!
