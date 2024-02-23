@@ -23,6 +23,21 @@ services:
     restart: always
     volumes:
       - job_search_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql
+      - PMA_USER=root
+      - PMA_PASSWORD=En2aqskS
+    ports:
+      - 3002:80
+    links:
+      - mysql
+    volumes:
+      - ./phpmyadmin/sessions:/sessions
+  
 volumes:
   job_search_data:
 
